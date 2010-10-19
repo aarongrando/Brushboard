@@ -1,30 +1,33 @@
-* {
-  float: none;       
-  font-size: 80%;     
-  background: #000;  
-  color: #000;
-}
 
 #view {
 	overflow: hidden;
+	position: relative;
+}
+
+#slider {
+	position: relative;
+	top: 0;
 }
 
 section {
 	overflow: hidden;
+	background-color: #000;
+	position: absolute;
 }
 
 article {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-color: #000;
+	color: #fff;
+	position: absolute;
 }	
 
-#screen1 {
+.screen0-0 {
 	background-image: url('../images/bear1-half.jpg');
 }
-#screen2 {
+.screen1-0 {
 	background-image: url('../images/bear2-half.jpg');
 }
-#screen3 {
+.screen2-0 {
 	background-image: url('../images/bear3-half.jpg');
 }
