@@ -1,7 +1,30 @@
-
 * {
   float: none;       
   font-size: 80%;     
-  background: #fff;  
+  background: #000;  
   color: #000;
+}
+
+#view {
+	overflow: hidden;
+}
+
+section {
+	overflow: hidden;
+}
+
+article {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: #000;
+}	
+
+#screen1 {
+	background-image: url('../images/bear1-half.jpg');
+}
+#screen2 {
+	background-image: url('../images/bear2-half.jpg');
+}
+#screen3 {
+	background-image: url('../images/bear3-half.jpg');
 }
